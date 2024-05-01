@@ -25,6 +25,3 @@ This project is a Music Library Management System implemented using the MERN sta
 - Once logged in, users can create, view, update, and delete playlists.
 - Users can add songs to their playlists and view the list of songs in each playlist.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
