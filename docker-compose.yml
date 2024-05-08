@@ -1,11 +1,11 @@
-version: "1.0"
+version: '1.0'
 
 services:
   client:
     build: ./frontend
     container_name: fontendapp
     ports:
-      - "5173:5173"
+      - '5173:5173'
     stdin_open: true
     tty: true
 
@@ -13,6 +13,6 @@ services:
     build: ./backend
     container_name: backendapp
     ports:
-      - "8080:8080"
+      - '8000:8000'
     stdin_open: true
     tty: true
