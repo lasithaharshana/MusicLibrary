@@ -55,8 +55,8 @@ const Signup = () => {
 	};
 
 	const signupBoxStyle = {
-		background: 'rgba(0, 0, 0, 0.7)', // Dark faded background
-		borderRadius: '8px', // Rounded corners
+		background: 'rgba(0, 0, 0, 0.7)',
+		borderRadius: '8px',
 		padding: '20px',
 		textAlign: 'center',
 	};
