@@ -1,5 +1,5 @@
-import background from '../../image/background-image.jpg'; // Replace with your background image
-import logo from '../../image/logo.png'; // Replace with your logo image
+// import background from '../../image/background-image.jpg';
+import logo from '../../image/logo.png';
 
 import { useState } from 'react';
 import axios from 'axios';
@@ -37,13 +37,13 @@ const Signup = () => {
 		}
 	};
 
-	const backgroundImageStyle = {
-		backgroundImage: `url(${background})`, // Full-screen background image
-		backgroundSize: 'cover',
-		backgroundPosition: 'center',
-		backgroundAttachment: 'fixed',
-		height: '100vh', // Set the height to 100% of the viewport height
-	};
+	// const backgroundImageStyle = {
+	// 	backgroundImage: `url(${background})`,
+	// 	backgroundSize: 'cover',
+	// 	backgroundPosition: 'center',
+	// 	backgroundAttachment: 'fixed',
+	// 	height: '100vh',
+	// };
 
 	const logoStyle = {
 		position: 'absolute',
@@ -55,15 +55,15 @@ const Signup = () => {
 	};
 
 	const signupBoxStyle = {
-		background: 'rgba(0, 0, 0, 0.7)', // Dark faded background
-		borderRadius: '8px', // Rounded corners
+		background: 'rgba(0, 0, 0, 0.7)',
+		borderRadius: '8px',
 		padding: '20px',
 		textAlign: 'center',
 	};
 
 	return (
 		<div
-			style={backgroundImageStyle}
+			// style={backgroundImageStyle}
 			className="container mx-auto flex justify-center items-center h-screen relative"
 		>
 			<img src={logo} alt="Logo" style={logoStyle} />
