@@ -1,4 +1,4 @@
-import background from '../../image/background-image.jpg';
+// import background from '../../image/background-image.jpg';
 import logo from '../../image/logo.png';
 
 import { useState } from 'react';
@@ -36,12 +36,12 @@ const Login = () => {
 		}
 	};
 
-	const backgroundImageStyle = {
-		backgroundImage: `url(${background}), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))`,
-		backgroundSize: 'cover',
-		backgroundPosition: 'center',
-		backgroundAttachment: 'fixed',
-	};
+	// const backgroundImageStyle = {
+	// 	backgroundImage: `url(${background}), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))`,
+	// 	backgroundSize: 'cover',
+	// 	backgroundPosition: 'center',
+	// 	backgroundAttachment: 'fixed',
+	// };
 
 	const logoStyle = {
 		position: 'absolute',
@@ -66,7 +66,7 @@ const Login = () => {
 
 	return (
 		<div
-			style={backgroundImageStyle}
+			// style={backgroundImageStyle}
 			className="container mx-auto flex justify-center items-center h-screen relative"
 		>
 			<img src={logo} alt="Logo" style={logoStyle} />
